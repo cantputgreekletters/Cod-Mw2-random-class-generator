@@ -14,7 +14,7 @@ class Gun:
         for _ in range(n):
             while True:
                 x = rn(0,a)
-                if x not in array:
+                if self.Check(x,array):
                     break
             array.append(x)
             number = rn(1,self.attatchment_array[x])
@@ -23,7 +23,8 @@ class Gun:
 
         return attatchment_list
     
-
+    def Check(self,x,array):
+        return x not in array
 
     def GetAttatchment(self,name,x):
         return(name, rn(1,x))

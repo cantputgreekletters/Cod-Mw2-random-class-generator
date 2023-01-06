@@ -1,6 +1,6 @@
 INFO:
 This is a really early build. The game normaly contains much more weapons and other features I can add randomness to.
-In this really early stage of the program, the program can only generate a random AR (Assault Rifle).
+In this really early stage of the program, the program can only generate a random AR (Assault Rifle) and SMG (Sub Machine GUn).
 I plan on adding all guns and maybe "Perks" too.
 
 HOW TO RUN:
